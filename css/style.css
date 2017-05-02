@@ -168,7 +168,7 @@ header nav a.active {
 
 /* doy estilo al video */
 #about {
-	background: #ffffff;
+	background: #000000;
 	background-image: url('../images/about1.jpg');
 	background-size: 100%;
 	text-align: center;
