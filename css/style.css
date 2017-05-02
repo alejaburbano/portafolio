@@ -168,7 +168,7 @@ header nav a.active {
 
 /* doy estilo al video */
 #about {
-	background: #000000;
+	/*background: #000000;*/
 	background-image: url('../images/map-image.png');
 	background-size: 100%;
 	text-align: center;
