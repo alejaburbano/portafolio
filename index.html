@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+
+		<!-- información no vible en el navegador -->
+		<title>Studio Dev</title>
+
+		<!-- fuento mediante Google founts -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+
+		<!-- refernciamos el archivo para normalizar los estilos de la pagina. El fin de este paso es lograr que en todos los navegadores se vea igual la pagina -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+		<!-- referenciamos el archivo donde le aplicamos los estilos a la pagina -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!-- referencia jQuery hosted para que funcione el javascript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+				<!-- referencia de fuente de iconos -->
+		<script src="https://use.fontawesome.com/5d9886de41.js"></script>
+
+		<!-- referencia a el archivo de javascript -->
+		<script type="text/javascript" src="js/app.js"></script>
+
+	</head>
+	<body>
+		<div class="home-wrapper"><!-- se crea con el objetivo de agrupar las secciones header y la siguiente  y poder colocar el la imagen de fondo -->
+
+			<header>
+
+				<div class="container">
+
+					<img src="images/logo.png" alt="Logo Studio Dev"> <!-- el atributo alt se ultiliza para dos cosas 1 para que los buscadores encuentrar la pagina y 2 para las personas que no pueden ver y usan screen readeers-->
+
+					<!--<nav>
+						<a href="#home" class="active">HOME</a>
+						<a href="#servicios">SERVICIOS</a>
+						<a href="#portafolio">PORTAFOLIO</a>
+						<a href="#contacto">CONTACTO</a>
+					</nav>-->
+					<input type="checkbox" id="btn-ham" class="active" /><label for="btn-ham"></label>
+    			<nav>
+    			<a href="#home" class="active">HOME</a>
+    			<a href="#servicios">SERVICIOS</a>
+					<a href="#about">ACERCA</a>
+    			<a href="#portafolio">PORTAFOLIO</a>
+    			<a href="#contacto">CONTACTO</a>
+    			</nav>
+
+				</div>
+			</header>
+
+			<section id="home" class="container">
+
+				<h1>Se escribe <em>diseño</em>, se pronuncia <strong>PASION</strong>.</h1>
+				<div class="divider"></div>
+				<p>Un buen diseño consiste en convertir sueños en realidad. Permite que te ayude a alcanzarlos.</p>
+
+				<div class="social">
+					<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+				</div>
+
+			</section>
+
+		</div>
+
+		<section id="servicios" class="container">
+
+			<h2>SERVICIOS</h2>
+
+			<div class="box">
+				<img src="images/fotografia.png" alt="Fotografía">
+				<h3>Fotografía</h3>
+				<p>Amplios conocimientos de las diversas técnicas de fotografía y la edición de fotos.</p>
+			</div>
+			<div class="box">
+				<img src="images/web-development.png" alt="Diseño web">
+				<h3>Diseño web</h3>
+				<p>Experta en UX y UI. Desarrollo web usando HTML5, CSS3 y RUBY ON RAILS </p>
+			</div>
+			<div class="box">
+				<img src="images/postproduccion.png" alt="Post-producción">
+				<h3>Post-producción</h3>
+				<p>Grandes habilidades en la realización de efectos especiales y edición de audio.</p>
+			</div>
+
+		</section>
+
+		<section id="about">
+			<div class="container">
+				<div class="about">
+					<h2>ACERCA</h2>
+					<p>Soy Alejandra Burbano, Diseñadora de Imagen y Sonido de la Universidad de Palermo de Buenos Aires, Argentina. Mi tesis titulada Educación interactiva para niños con síndrome de down. En la cual presente una app web que serviría de apoyo para la enseñanza de niños que tuvieran ese síndrome.
+		Me he desempeñado en diferentes áreas tanto en la post producción de videos, realizando efectos especiales, la edición de videos, animación en 3D Max y de sonidos. Igualmente realice trabajos en el sector de dirección de arte y asistente de producción. También he realizado diseño y programación de paginas web.
+		</p>
+			</div>
+			</div>
+
+		</section>
+
+		<section id="portafolio">
+
+			<div class="container">
+
+				<h2>PORTAFOLIO</h2>
+
+				<div class="box">
+					<img src="images/portafolio/bigg.jpg" alt="Bigg CrossFit">
+					<h3>BIGG Crossfit</h3>
+					<p>Videoclip que la intensidad de los ejercicios practicados en crossfit.</p>
+				</div>
+				<div class="box">
+					<img src="images/portafolio/sindicato.png" alt="Sindicato de oftalmologia">
+					<h3>Sindicato de oftalmologia</h3>
+					<p>Animación en 2D realizado para el Sindicato de oftalmologia</p>
+				</div>
+				<div class="box">
+					<img src="images/portafolio/coro.png" alt="estetica de sonido">
+					<h3>Sonido</h3>
+					<p>Video en el que se usaron diferentes tecnicas de grabación de sonido.</p>
+				</div>
+				<div class="box">
+					<img src="images/portafolio/coro2.png" alt="Coro Entre Rios">
+					<h3>Coro Entre Rios</h3>
+					<p>Video institucional en el que se muestra la influencia del coro de Entre Rios en la gente.</p>
+				</div>
+				<div class="box">
+					<img src="images/portafolio/lado.png" alt="Direccion de arte">
+					<h3>Del Otro Lado</h3>
+					<p>Cortometraje en el que trabaje como productora y realice los efectos especiales.</p>
+				</div>
+				<div class="box">
+					<img src="images/portafolio/carancho.jpg" alt="Pagina pelicula carancho">
+					<h3>Carancho</h3>
+					<p>Realice el diseño y programación de la pagina web que trata sobre la pelicula Argentina Carancho.</p>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="contacto">
+
+			<h2>CONTACTO</h2>
+
+			<form>
+				<div><input type="text" placeholder="Tu E-mail"></input></div>
+				<div><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
+				<button>ENVIAR</button>
+			</form>
+
+		</section>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15930.568006498861!2d-76.54921016690226!3d3.436980328925097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x261875edc40bbbdc!2sCasa+O+Coworking!5e0!3m2!1ses-419!2sco!4v1467055574620" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+		<footer>
+			© 2017 <strong>Aleja Burbano</strong>, Todos los Derechos Reservados
+		</footer>
+
+	</body>
+</html>
