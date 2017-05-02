@@ -168,12 +168,10 @@ header nav a.active {
 
 /* doy estilo al video */
 #about {
-	/*background: #000000;*/
 	background-image: url('../images/about1.png');
 	background-size: 100%;
 	text-align: center;
 	padding: 30px 0px;
-	color: white;
 }
 
 .about {
