@@ -225,6 +225,20 @@ header nav a.active {
 	margin: 1%;
 }
 
+@media only screen and (max-width: 795px){
+	#portafolio .box {
+		width: 47%;
+		margin-left: 1%;
+	}
+}
+
+@media only screen and (max-width: 675px){
+	#portafolio .box {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+
 #portafolio .box img {
 	width: 100%;
 }
