@@ -169,6 +169,9 @@ header nav a.active {
 /* doy estilo al video */
 #about {
 	background-image: url('../images/about1.png');
+	/* no repite el fondo de la seccion about */
+	background-repeat: no-repeat;
+	background-color: black;
 	background-size: 100%;
 	text-align: center;
 	padding: 30px 0px;
