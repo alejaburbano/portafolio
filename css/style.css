@@ -7,7 +7,7 @@ body {
 	line-height: 1.6;
 }
 .home-wrapper {
-	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/background.png') no-repeat center top; /* se utiliza una ruta relativa a razón que el archivo stylel.css esta dentro de la carpeta css para utililzamos la siguiente ruta '../images....' */
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/background.jpg') no-repeat center top; /* se utiliza una ruta relativa a razón que el archivo stylel.css esta dentro de la carpeta css para utililzamos la siguiente ruta '../images....' */
 	background-size: cover;
 	color: white;
 }
