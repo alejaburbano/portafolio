@@ -166,6 +166,25 @@ header nav a.active {
 	padding: 10px;
 }
 
+/* reglas para moviles seccion servicios */
+
+@media only screen and (max-width: 800px){
+	#servicios .box {
+		width: 49%;
+	}
+	#servicios .box:last-child {
+		width: 50%;
+		margin-left: 25%;
+	}
+}
+
+@media only screen and (max-width: 675px){
+	#servicios .box {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+
 /* doy estilo al video */
 #about {
 	background-image: url('../images/about1.png');
