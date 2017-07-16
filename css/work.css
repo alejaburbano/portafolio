@@ -1,0 +1,79 @@
+body {
+  background-color: whitesmoke;
+}
+
+#detalle {
+  padding-bottom: 30px;
+}
+
+#detalle .container {
+  margin-top: 80px;
+  display: table;
+}
+
+.video {
+  margin-left: 10px;
+  display: inline-block;
+  float: left;
+}
+
+@media only screen and (max-width: 980px){
+	.video {
+		margin-left: 10%;
+    margin-right: 10%;
+	}
+}
+
+.detalle {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  float: right;
+}
+
+@media only screen and (max-width: 980px){
+	.detalle {
+		width: 90%;
+		margin-left: 5%;
+    margin-right: 5%;
+	}
+}
+
+.detalle h3 {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 965px){
+	.detalle h3 {
+		margin-top: 10px;
+	}
+}
+
+.botones {
+  background-color: red;
+}
+
+.botones a {
+  background-color: #006699;
+ 	padding: 20px 40px;
+ 	border-color: #006699;
+ 	border-radius: 3px;
+ 	color: white;
+ 	font-size: 18px;
+ 	line-height: 1;
+ 	font-weight: bold;
+}
+
+.izq {
+  float: left;
+}
+
+.der {
+  float: right;
+}
+
+#portafolio {
+  padding-top: 20px;
+}

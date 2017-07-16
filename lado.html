@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+
+		<!-- información no vible en el navegador -->
+		<title>Al otro lado</title>
+
+		<!-- fuento mediante Google founts -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+
+		<!-- refernciamos el archivo para normalizar los estilos de la pagina. El fin de este paso es lograr que en todos los navegadores se vea igual la pagina -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+		<!-- referenciamos el archivo donde le aplicamos los estilos a la pagina -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<link rel="stylesheet" type="text/css" href="css/work.css">
+
+		<!-- referencia jQuery hosted para que funcione el javascript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+				<!-- referencia de fuente de iconos -->
+		<script src="https://use.fontawesome.com/5d9886de41.js"></script>
+
+		<!-- referencia a el archivo de javascript -->
+		<script type="text/javascript" src="js/app.js"></script>
+
+	</head>
+	<body>
+		<div class="home-wrapper"><!-- se crea con el objetivo de agrupar las secciones header y la siguiente  y poder colocar el la imagen de fondo -->
+
+			<header>
+
+				<div class="container">
+
+					<img src="images/logo.png" alt="Aleja Burbano"> <!-- el atributo alt se ultiliza para dos cosas 1 para que los buscadores encuentrar la pagina y 2 para las personas que no pueden ver y usan screen readeers-->
+
+					<input type="checkbox" id="btn-ham" class="active" /><label for="btn-ham"></label>
+    			<nav>
+						<a href="index.html" class="active">HOME</a>
+	    			<a href="index.html#servicios">SERVICIOS</a>
+						<a href="index.html#about">ACERCA</a>
+	    			<a href="index.html#portafolio">PORTAFOLIO</a>
+	    			<a href="index.html#contacto">CONTACTO</a>
+    			</nav>
+
+				</div>
+			</header>
+
+		</div>
+
+		<section id="detalle">
+      <div class="container">
+        <div class="video">
+          <iframe width="640" height="360" src="https://www.youtube.com/embed/xxACPhRJQ7E?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="detalle">
+          <h3>Al otro lado</h3>
+          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos.</p>
+        </div>
+      </div>
+    </section>
+
+		<div class="container">
+			<div class="botones">
+				<a class="izq" href="banda.html"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+				<a class="der" href="bigg.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+
+
+    <section id="portafolio">
+
+			<div class="container">
+
+				<h2>PORTAFOLIO</h2>
+
+				<a href="bigg.html">
+					<div class="box">
+						<img src="images/portafolio/bigg1.jpg" alt="Bigg CrossFit">
+						<h3>BIGG Crossfit</h3>
+						<p>Videoclip que la intensidad de los ejercicios practicados en crossfit.</p>
+					</div>
+				</a>
+				<a href="sindicato.html">
+					<div class="box">
+						<img src="images/portafolio/sindicato.jpg" alt="Sindicato de oftalmologia">
+						<h3>Sindicato de oftalmologia</h3>
+						<p>Animación en 2D realizado para el Sindicato de oftalmologia</p>
+					</div>
+				</a>
+				<a href="coro.html">
+					<div class="box">
+						<img src="images/portafolio/coro.jpg" alt="estetica de sonido">
+						<h3>Sonido</h3>
+						<p>Video en el que se usaron diferentes tecnicas de grabación de sonido.</p>
+					</div>
+				</a>
+				<a href="banda.html">
+					<div class="box">
+						<img src="images/portafolio/coro2.jpg" alt="Coro Entre Rios">
+						<h3>Coro Entre Rios</h3>
+						<p>Video institucional en el que se muestra la influencia del coro de Entre Rios en la gente.</p>
+					</div>
+				</a>
+				<a href="lado.html">
+					<div class="box">
+						<img src="images/portafolio/lado.jpg" alt="Direccion de arte">
+						<h3>Del Otro Lado</h3>
+						<p>Cortometraje en el que trabaje como productora y realice los efectos especiales.</p>
+					</div>
+				</a>
+				<a href="index.html">
+					<div class="box">
+						<img src="images/portafolio/carancho1.jpg" alt="Pagina pelicula carancho">
+						<h3>Carancho</h3>
+						<p>Realice el diseño y programación de la pagina web que trata sobre la pelicula Argentina Carancho.</p>
+					</div>
+				</a>
+
+			</div>
+
+		</section>
+
+		<footer>
+			© 2017 <strong>Aleja Burbano</strong>, Todos los Derechos Reservados
+		</footer>
+
+	</body>
+</html>
